@@ -17,14 +17,14 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 	<div class="<?php echo esc_attr( $container ); ?>">
 
-		<div class="row">
+		<div class="row align-center">
 
-			<div class="col-md-12">
+			<div class="col-md-9 auto-align">
 
 				<footer class="site-footer" id="colophon">
 
-					<div class="site-info">
-
+					<div class="site-info align-center">
+						<!-- UNDERSTRAP FOOTER
 							<a href="<?php  echo esc_url( __( 'http://wordpress.org/','understrap' ) ); ?>"><?php printf( 
 							/* translators:*/
 							esc_html__( 'Proudly powered by %s', 'understrap' ),'WordPress' ); ?></a>
@@ -37,7 +37,20 @@ $container = get_theme_mod( 'understrap_container_type' );
 							(<?php printf( // WPCS: XSS ok.
 							/* translators:*/
 								esc_html__( 'Version: %1$s', 'understrap' ), $the_theme->get( 'Version' ) ); ?>)
-					</div><!-- .site-info -->
+					</div> -->
+					<!-- .site-info -->
+
+					<div class="left-footer">
+						© Copyright: Vanité 2017 - Diseño: <a class="iv-link" href="https://www.identidadvisual.com/"><strong>Identidad Visual</strong></a>
+						</div>
+						<div class="right-footer">
+							<a href="">
+								<i class="fa fa-2x fa-facebook" aria-hidden="true"></i>
+							</a>
+							<a href="">
+								<i class="fa fa-2x fa-twitter" aria-hidden="true"></i>
+							</a>
+						</div>
 
 				</footer><!-- #colophon -->
 

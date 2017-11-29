@@ -1,6 +1,25 @@
 // Use this file to overwrite the basic Bootstrap variables and add your own variables
 // To overwrite a Bootstrap variable you don´t have to touch the Bootstrap folder. 
-// Just copy a variable from src/sass/bootstrap4/_variables.scss, paste it here and edit the value.
+// Just copy a variable from /sass/bootstrap/_variables.scss, paste it here and edit the value.
+// As example you find one of the most important Bootstrap variable below: $brand-primary.
+// Thats the ugly Bootstrap blue used for all the links, primary buttons etc.
+// Just add your color code here, compile the theme.scss file to change this color everywhere
 
 
-$primary: #0A42E8; // Thats a sample how you could change a BootStrap variable.
+$brand-primary:         #fece00; //#ff6d5a
+/*COLORS*/
+$button-blue: #284075;
+$lighter-blue: #75b6e0;
+$text-blue: #5fa2db;
+$pink: #d47398;
+$white: #fff;
+$black: #111;
+
+/*FONTS*/
+$oswald: "Oswald", Arial, sans-serif;
+$raleway: "Raleway",Arial,sans-serif;
+
+/*MISC*/
+$placeholder-image: 'http://localhost/tests/wp-content/uploads/2017/11/placeholder.png';
+$separator-image: 'http://localhost/tests/wp-content/uploads/2017/11/separator-image.png';
+$list-marker: 'http://localhost/tests/wp-content/uploads/2017/11/marker.png';
