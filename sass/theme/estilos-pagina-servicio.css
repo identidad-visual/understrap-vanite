@@ -1,0 +1,589 @@
+/*override*/
+.top-gray {
+    top: 36% !important;
+}
+
+/*GENERAL */
+
+.hidden-h {
+    display: none;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-right {
+    text-align: right;
+}
+
+/* TOP PART */
+.un-head-brd .vc_row, .un-head-brd .un-row {
+    margin: 0 0 !important;
+}
+
+.clear-fixer {
+    clear:both;
+}
+
+.bottom-a-medida .vc_row .vc_col-sm-12 {
+    padding: 3px 10px 3px 10px;
+}
+
+.small-h2 {
+    font-size:1em !important;
+    line-height: 40px !important;
+}
+
+.full-container {
+    margin: 3%;
+    margin-top:2%;
+}
+
+.top-container {
+    margin: 2% 3% 0 3%;
+    position: relative;
+}
+
+.top-container img {
+    width: 100%;
+}
+
+.top-container h2 {
+    font-size: 2.3rem !important;
+    line-height: 30px !important;
+    margin-bottom:15px;
+    margin-top: 30px;
+    color: #8e8686;
+}
+
+.top-container p {
+    font-weight: 600;
+    font-size: 15px !important;
+    line-height: 24px;
+}
+
+.top-gray {
+    position: absolute;
+    height: 65%;
+    width: 150%;
+    background-color: #f4f8fb;
+    z-index: -1;
+    top: 40%;
+}
+
+.four-texts-top {
+    margin-bottom:10%;
+    margin-top: 12%;
+}
+
+.four-texts-mobile {
+    display: none;
+}
+
+.four-texts-top, .four-texts-bottom {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+.responsive-align {
+    clear: both;
+}
+
+.extra-nav, .extra-nav-mobile {
+    display: inline-flex;
+    flex-flow: row nowrap;
+    justify-content: left;
+    margin-top: 12vh;
+    margin-bottom: 3vh;
+    color: #8e8686;
+}
+
+.extra-nav {
+    padding-left: 2vw;
+    text-align: left;
+}
+.extra-nav-mobile {
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.extra-segment {
+    text-align: center;
+    cursor: pointer;
+}
+
+.extra-nav a, .extra-nav-mobile a {    
+    display: inline-block;
+    padding-right: 0.5vw;
+    color: #8e8686;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.extra-nav a:hover, .extra-nav-mobile a:hover {
+    font-weight: 600;
+}
+
+.extra-nav i, .extra-nav-mobile i {
+    padding-right: 0.5vw;
+}
+
+.vertical-separator {
+    text-align: center;
+    writing-mode: tb-rl;
+    margin-left: 50%;
+    padding: 3% 0;
+    cursor: default;
+}
+
+
+/* catalog stuff */
+
+
+.un-box {
+    width: auto;
+    white-space: nowrap;
+    margin-bottom: 1em;
+}
+
+.un-box > .un-col-lg-4 {
+    width: 100%;
+}
+
+
+/* MIDDLE PART */
+
+
+.cuadro-a-medida {
+    text-align: right;
+}
+
+.header-a-medida {
+    font-size: 80px;
+    line-height: 60px;
+    word-spacing: 0px;
+    letter-spacing: 0px;
+    font-weight: 700;
+    white-space: nowrap;
+    font-style: normal;
+    color: #111;
+}
+
+.srv-grafico {background: url("http://www.identidadvisual.com/wp-content/uploads/2017/10/IMGbannergrafico.png") no-repeat;}
+.srv-web {background: url("http://www.identidadvisual.com/wp-content/uploads/2017/06/web-background-small.png") no-repeat;}
+.srv-marketing {background: url("http://www.identidadvisual.com/wp-content/uploads/2017/06/IV-BANNER-marketing.png") no-repeat;}
+.srv-rotulos {background: url("http://www.identidadvisual.com/wp-content/uploads/2017/06/IV-BANNER-rotulacion.png") no-repeat;}
+.srv-imprenta {background: url("http://www.identidadvisual.com/wp-content/uploads/2017/06/IV-SERVICIOS-background-IMPRESION.png") no-repeat;}
+.srv-publicidad {background: url("http://www.identidadvisual.com/wp-content/uploads/2017/10/IMGbannerpubli.png") no-repeat;}
+
+.top-a-medida, .top-a-medida-mobile {
+    text-align: center;    
+    background-size: cover;
+    padding: 6% 12% 4% 12%;
+}
+
+.top-a-medida-header {
+    font-size:1em !important;
+    margin: 5% 0;
+    color: #fff;
+    line-height: 35px !important;
+}
+
+.top-a-medida-text {
+    font-size: 1em;
+    line-height: 24px !important;
+    padding: 0 15%;
+    color: #fff;
+}
+
+.top-a-medida-mobile img {
+    margin-top: 3vh;
+}
+
+.icon-placeholder {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    display: inline-block;
+    margin-bottom: 5%;
+}
+
+.mobile-only {
+    text-align: center;
+    width: 100%;
+    line-height: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: #f4f8fb;
+}
+
+.bottom-a-medida {
+    margin-bottom: 4%;
+    padding: 2% 2%;
+    padding-top: 3%;
+    text-align: left;
+    background-color: #f4f8fb;
+}
+
+.bottom-a-medida p {
+    font-weight: 300;
+}
+
+
+/* RESPONSIVENESS */
+/* 1815 px es un rango horrible, just saying */
+@media only screen and (max-width: 1815px) {
+    .extra-nav i {
+        padding: 0;
+    }
+    .extra-nav a {
+        padding-left: 0.5vw;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    .four-texts-top, .four-texts-bottom {
+        padding-right: 0 !important;
+    }
+    .extra-nav {
+        padding-left: 0.5vw;
+    }
+}
+
+@media only screen and (min-width: 1367px) {
+    .top-a-medida {
+        display: block;
+    }
+
+    .top-a-medida-mobile {
+        display: none;
+    }
+   
+    .left-spacer {
+        padding-left: 6rem !important;
+        padding-right: 0 !important;
+    }
+ 
+}
+
+@media (max-width: 1366px) {
+    .left-spacer {
+        padding-left: 15px !important;
+    }
+}
+
+@media only screen and (max-width: 1333px) and (min-width:1024px) {
+    .top-a-medida {
+        display: block;
+    }
+
+    .top-a-medida-mobile {
+        display: none;
+    }
+
+    .header-a-medida {
+        font-size: 70px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .vc_col-lg-6 {
+        width: 100% !important;
+    }
+    
+    .left-spacer {
+        padding-left: 0 !important;
+    }
+    
+    .four-texts-top {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .four-texts-top, .four-texts-bottom {
+        padding-left: 0 !important;
+    }
+    
+    .cuadro-a-medida {
+        text-align: center;
+    }
+
+    .header-a-medida {
+        display: inline-block;
+    }
+
+    .responsive-align {
+        text-align: center;
+    }
+
+    .extra-nav a {
+        min-width: 76px;
+    }
+
+    .top-container img {
+        max-width: 900px;
+    }
+}
+
+@media only screen and (max-width: 1200px) and (min-width:992px) {
+    .top-gray {
+        top: 50%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .first-row {
+        margin-top: 8rem !important;
+    }   
+}
+
+@media only screen and (max-width: 1024px) {
+    .top-a-medida {
+        display: none;
+    }
+
+    .top-a-medida-mobile {
+        display: block;
+    }
+
+    .four-texts-top, .four-texts-bottom {
+        margin-bottom: 4%;    
+    }
+
+    .header-a-medida {
+        font-size: 50px;
+    }
+}
+
+
+@media only screen and (min-width: 992px) {
+    .clear-fixer {
+        clear: initial;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .header-a-medida {
+        font-size: 30px;
+    }
+
+    .full-container {
+        margin: 7%;
+        margin-top: 2%;
+    }
+
+    .top-gray {
+        top: 30%;
+    }
+
+    .header-a-medida {
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 701px) {
+    .mobile-only {
+        display: none;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .flex-text {
+        flex: 1 98%;
+    }
+    .mobile-only {
+        display: inline-block;
+    }
+    .bottom-a-medida {
+        padding-top: 2%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .top-gray {
+        top: 10%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header-a-medida {
+        font-size: 23px !important;
+    }
+}
+
+
+/* SEO MAKER */
+
+
+.seo-maker, .home-section.section-8 {
+    margin-top:10%;
+    background-color: #f4f3f5;
+    padding: 3% 1% 3% 3%;
+    font-family: "Montserrat","Source sans pro", Arial, sans-serif;
+}
+.seo-maker-header h2{
+    font-size: 16px !important;
+    line-height: 35px;
+    color: #434344;
+}
+.seo-maker-text {
+    color: #76787b;
+    text-decoration: none;
+    line-height: 30px;
+}
+/*
+@media only screen and (max-width: 1024px) {
+    .seo-maker {
+        padding: 3% 1% 3% 5%;
+    }
+}
+*/
+
+
+/* FOOTER STYLES */
+
+
+.hidden-h {display:none;}
+.footer-container {        
+    position: relative;
+    overflow: visible;
+    padding: 5% 1% 1% 3%;    
+    margin-top: 10%;
+    font-family: "Source Sans Pro",Arial,sans-serif;
+    background-color: #f4f8fb;
+}
+.footer-container a:hover {
+    color: #f60;
+}
+.footer-background {
+    /*
+    background: url('http://www.identidadvisual.com/wp-content/uploads/2017/06/Footer_background.png') no-repeat;
+    background-size: cover;
+    */
+    background-color: #f4f8fb;
+    position: absolute;
+    top:-3em;
+    left:-8em;
+    width: 2000px;
+    height: 130%;
+}
+.footer-column {line-height:2;}
+.footer-column-header {
+    color: #ff6600;
+    font-weight: 600;
+    font-size:1.3em;
+}
+.footer-container .vc_col-sm-6 {
+    padding-left:0;
+    padding-right:0;
+}
+.footer-column-content {
+    font-size:1.1em;
+    font-weight: 300;
+    color: #7d7d7c;
+}
+.footer-column-content a {
+    display: block;
+}
+.footer-logo-container {text-align: center;}
+.app-icons-container {text-align: center;}
+.app-icons-container img {
+    width: 98px;
+    height: auto;
+}
+.app-icons-clearfix {display: inline-table;}
+.footer-column-store-icons div, .footer-ending-icons div {
+    display: inline-block;
+}
+.footer-column-store-icons div:first-child {
+    margin: 0 2% 0 0;
+}
+.newsletter-wrapper {
+    margin-top: 15%;
+    text-align: left !important;
+}
+#mc4wp-form-1 > div.mc4wp-form-fields > p:nth-child(3) {
+    text-align: left;
+}
+#mc4wp-form-1 > div.mc4wp-form-fields > p:nth-child(3) > input {
+    margin-top: 4%;
+    background-color: #f60;
+    color: #fff;
+    font-weight: 700;
+    border: 2px solid #f60;
+}
+#mc4wp-form-1 > div.mc4wp-form-fields > p:nth-child(3) > input:hover {
+    box-shadow: 3px 3px 10px #ccc;
+}
+.footer-ending {
+    color: #111;
+    margin: 10% 0 3% 0;
+}
+.footer-ending p {
+    display: inline-block;
+    font-weight: 300;
+    font-size: 14px;
+}
+.footer-ending a {
+    color: #555;
+}
+.footer-ending img {
+    max-width: 100%;
+}
+.footer-ending-links a {
+    font-weight: 500;
+}
+
+.dev-credits, .dev-suggestions {
+    display: inline-block;
+}
+
+.dev-credits {
+    margin-right: 1vw;
+}
+
+
+/* FOOTER RESPONSIVENESS */
+
+
+@media only screen and (max-width: 1616px) and (min-width: 992px) {
+    .footer-ending-left {
+        max-width: 35%;
+    }
+    .footer-ending-right {
+        max-width: 65%;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .footer-logo-container {text-align: left;}
+    .app-icons-container {text-align: left;}
+}
+@media only screen and (max-width: 992px) {
+    .clear-fixer {clear:both;}
+    .footer-ending-icons {
+        margin-top: 3%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .footer-container {text-align: center;}
+    .footer-column {
+        text-align: center;
+    }
+    .footer-column-wrap {
+        text-align:left;
+        display: inline-block;
+        min-width: 100%;
+    }
+    .newsletter-wrapper {
+        margin-top: 1%;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .vc_col-xs-6 {
+        width: 100%;
+    }
+}
