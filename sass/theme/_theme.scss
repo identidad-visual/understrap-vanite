@@ -81,6 +81,10 @@ body {
 	}
 }
 
+#full-width-page-wrapper {
+	padding: 10px 0;
+}
+
 
 /* HOMEPAGE GENERAL STYLES */
 
@@ -118,7 +122,8 @@ body {
 			&:before, &:after {
 				position: absolute;
 				content: " ";
-				top: 35%;
+				top: 50%;
+				transform: translate(0,-50%);
 				height: 3px;
 				width: 120px;
 				background-color: $button-blue;
@@ -243,8 +248,8 @@ body {
 
 #scroll-up {
 	position: fixed;
-	top: 90%;
-	left: 95%;
+	bottom: 1%;
+	right: 3%;
 	width: 50px;
 	height: 50px;
 	border: 2px solid $button-blue;
@@ -284,7 +289,6 @@ body {
 				margin-top: 130px;
 				transition: margin-top 1s linear;
 			}
-
 			&.five-special:hover {
 				margin-top: 3px;
 			}
@@ -315,21 +319,21 @@ body {
 	margin: 10vh 0;
 
 	.imagelist-wrapper {
+		justify-content: center;
 		height: 60vh;
 		width: 100%;
-		justify-content: center;
 		background-color: #f5f9fd;
 
 		.image-wrapper {
 			height: 64vh;
 			max-width: 25vw;
-			margin-top: -1%;
+			margin-top: -3%;
 			background: url($placeholder-image) no-repeat center top;
 			background-size: cover;
 		}
 
 		.text-wrapper {
-			padding: 10vh 0;
+			padding: 1vh 0;
 			font-family: $raleway;
 
 			h2 {
@@ -437,8 +441,7 @@ body {
 			width: 25vw;
 
 			&:hover .op-layer {
-				opacity: 0.7;
-				
+				opacity: 0.7;			
 			}
 
 			.op-layer {
@@ -505,7 +508,6 @@ body {
 		margin: 0;
 		font-size: 2.5em;
 		font-family: $raleway;
-		cursor: pointer;
 
 		a {
 			text-decoration: none;
@@ -528,6 +530,7 @@ body {
 			font-size: 1.6em;
 			font-weight: 300;
 			font-family: $oswald;
+			cursor: pointer;
 		}
 	}
 }
@@ -609,13 +612,13 @@ body {
 			}
 		}
 		.form-wrapper {
-			display: inline-block;
-			flex-basis: 40%;
+			display: flex;
+			align-items: center;
+			flex-basis: 20%;
 			font-family: $raleway;
 			padding-top: 2%;
 
 			.wpcf7 {
-				min-width: 40vw;
 				label {
 					text-align: left;
 				}
@@ -637,7 +640,7 @@ body {
 	a {
 		text-decoration: none;
 		color: inherit;
-		padding-right: 2em;
+		padding: .5em;
 	}
 	.iv-link {
 		padding-right: 0;
@@ -661,6 +664,12 @@ body {
 	#main-menu {
 		li {
 			font-size: 1.5em;
+
+			ul {
+				li {
+					font-size: 1em;
+				}
+			}
 		}
 	}
 }
@@ -669,6 +678,7 @@ body {
 	.container {
 		max-width: 100%;
 	}
+
 }
 
 @media only screen and (max-width: 1280px) {
@@ -869,6 +879,7 @@ body {
 				margin: 0 1em;
 				font-size: 1.8em;
 				line-height: 32px;
+				max-width: 75%;
 			}
 		}
 	}
@@ -920,6 +931,7 @@ body {
 
 	.section-3, .section-5 {
 		padding: 0 !important;
+		margin: 20vh 0;
 
 		.imagelist-wrapper {
 			height: 62vh;
@@ -933,7 +945,7 @@ body {
 
 				ul {
 					li {
-						font-size: 1.6em;
+						font-size: 1.3em;
 					}
 				}
 			}
@@ -942,6 +954,12 @@ body {
 
 	.section-5 {
 		.imagelist-wrapper {
+
+			height: 70vh;
+
+			.image-wrapper {
+				height: 74vh;
+			}
 
 			.text-wrapper {
 				ul {
@@ -966,6 +984,7 @@ body {
 			display: block;
 			position: fixed;
 			top: 11vh;
+			left: 0;
 			width: 100%;
 			padding: .3em .6em;
 			background-color: $button-blue;
@@ -1050,6 +1069,7 @@ body {
 		padding: 0 !important;
 
 		.imagelist-wrapper {
+			align-items: center;
 			height: 100vh;
 
 			.image-wrapper {
@@ -1115,40 +1135,40 @@ body {
 }
 
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 
 .form-head {
-    text-align: center;
-    padding: 10px 5px;
-    color: #fff;
+	text-align: center;
+	padding: 10px 5px;
+	color: #fff;
 }
 
 
 
 /* form starting stylings ------------------------------- */
 .group {
-    position: relative;
-    margin-bottom: 35px;
+	position: relative;
+	margin-bottom: 35px;
 }
 
 .fancy-input, .fancy-textarea {
-    font-size: 18px !important;
-    padding: 5px 10px 10px 5px !important;
-    display: block !important;
-    width: 100% !important;
-    border: none !important;
-    border-bottom: 1px solid #fff !important;
-    border-radius: 0 !important;
-    background: transparent !important;
+	font-size: 18px !important;
+	padding: 5px 10px 10px 5px !important;
+	display: block !important;
+	width: 100% !important;
+	border: none !important;
+	border-bottom: 1px solid #fff !important;
+	border-radius: 0 !important;
+	background: transparent !important;
 }
 
-    .fancy-input:focus, .fancy-textarea:focus {
-        outline: none;
-        color: #fff !important;
-        box-shadow: none !important;
-    }
+.fancy-input:focus, .fancy-textarea:focus {
+	outline: none;
+	color: #fff !important;
+	box-shadow: none !important;
+}
 
 /* LABEL ======================================= */
 .wpcf7-form-control-wrap {
@@ -1156,26 +1176,26 @@ body {
 }
 
 .dynamic-label {
-    color: #fff;
-    font-size: 18px;
-    font-weight: normal;
-    position: absolute;
-    top: 0;
-    left: 0;
-    pointer-events: none;
-    transition: 0.2s ease all;
-    -moz-transition: 0.2s ease all;
-    -webkit-transition: 0.2s ease all;
-    white-space: nowrap;
+	color: #fff;
+	font-size: 18px;
+	font-weight: normal;
+	position: absolute;
+	top: 0;
+	left: 0;
+	pointer-events: none;
+	transition: 0.2s ease all;
+	-moz-transition: 0.2s ease all;
+	-webkit-transition: 0.2s ease all;
+	white-space: nowrap;
 }
 
 
 /* active state */
 .fancy-input:focus ~ .dynamic-label,
 .fancy-textarea:focus ~ .dynamic-label {
-    top: -20px;
-    font-size: 14px;
-    color: #fff;
+	top: -20px;
+	font-size: 14px;
+	color: #fff;
 }
 
 .wpcf7-not-valid-tip {
@@ -1187,97 +1207,98 @@ body {
 
 
 .bar {
-    position: relative;
-    display: block;
-    width: 100%;
+	position: relative;
+	display: block;
+	width: 100%;
 }
 
-    .bar:before, .bar:after {
-        content: '';
-        height: 2px;
-        width: 0;
-        bottom: 1px;
-        position: absolute;
-        background: #fff;
-        transition: 0.2s ease all;
-        -moz-transition: 0.2s ease all;
-        -webkit-transition: 0.2s ease all;
-    }
+.bar:before, .bar:after {
+	content: '';
+	height: 2px;
+	width: 0;
+	bottom: 1px;
+	position: absolute;
+	background: #fff;
+	transition: 0.2s ease all;
+	-moz-transition: 0.2s ease all;
+	-webkit-transition: 0.2s ease all;
+}
 
-    .bar:before {
-        left: 50%;
-    }
+.bar:before {
+	left: 50%;
+}
 
-    .bar:after {
-        right: 50%;
-    }
+.bar:after {
+	right: 50%;
+}
 
 /* active state */
 .fancy-input:focus ~ .bar:before, .fancy-input:focus ~ .bar:after, .fancy-textarea:focus ~ .bar:before, .fancy-textarea:focus ~ .bar:after {
-    width: 50%;
+	width: 50%;
 }
 
 /* HIGHLIGHTER ================================== */
 .highlight {
-    position: absolute;
-    height: 60%;
-    width: 100px;
-    top: 25%;
-    left: 0;
-    pointer-events: none;
-    opacity: 0.5;
+	position: absolute;
+	height: 60%;
+	width: 100px;
+	top: 25%;
+	left: 0;
+	pointer-events: none;
+	opacity: 0.5;
 }
 
 /* active state */
 .fancy-input:focus ~ .highlight, .fancy-textarea:focus ~ .highlight {
-    -webkit-animation: inputHighlighter 0.3s ease;
-    -moz-animation: inputHighlighter 0.3s ease;
-    animation: inputHighlighter 0.3s ease;
+	-webkit-animation: inputHighlighter 0.3s ease;
+	-moz-animation: inputHighlighter 0.3s ease;
+	animation: inputHighlighter 0.3s ease;
 }
 
 /* ANIMATIONS ================ */
 @-webkit-keyframes inputHighlighter {
-    from {
-        background: #fff;
-    }
+	from {
+		background: #fff;
+	}
 
-    to {
-        width: 0;
-        background: transparent;
-    }
+	to {
+		width: 0;
+		background: transparent;
+	}
 }
 
 @-moz-keyframes inputHighlighter {
-    from {
-        background: #fff;
-    }
+	from {
+		background: #fff;
+	}
 
-    to {
-        width: 0;
-        background: transparent;
-    }
+	to {
+		width: 0;
+		background: transparent;
+	}
 }
 
 @keyframes inputHighlighter {
-    from {
-        background: #fff;
-    }
+	from {
+		background: #fff;
+	}
 
-    to {
-        width: 0;
-        background: transparent;
-    }
+	to {
+		width: 0;
+		background: transparent;
+	}
 }
 
 #panel {
-    background: -webkit-linear-gradient(90deg, #2caab3 0%, $lighter-blue 100%);
-    background: red; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(90deg, #2caab3 0%, $lighter-blue 100%); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(90deg, #2caab3 0%, $lighter-blue 100%); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(90deg, #2caab3 0%, $lighter-blue 100%); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(90deg, #2caab3 0%, $lighter-blue 100%); /* Standard syntax (must be last) */
-    /* original gradient color:  #2c8cb3 */
-    border-radius: 4px;
+	min-width: 25vw;
+	background: -webkit-linear-gradient(90deg, #2caab3 0%, $lighter-blue 100%);
+	background: red; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(90deg, #2caab3 0%, $lighter-blue 100%); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(90deg, #2caab3 0%, $lighter-blue 100%); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(90deg, #2caab3 0%, $lighter-blue 100%); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(90deg, #2caab3 0%, $lighter-blue 100%); /* Standard syntax (must be last) */
+	/* original gradient color:  #2c8cb3 */
+	border-radius: 4px;
 }
 
 /* style submit button */
